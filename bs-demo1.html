@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bs-demo1.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">myGIF</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Anasayfa <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Seçenekler
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Çıkartmalar</a>
+                <a class="dropdown-item" href="#">GIF görüntüle</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Hakkımızda</a>
+              </div>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="ne arıyorsun?" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Ara</button>
+          </form>
+        </div>
+      </nav>
+      <div class="container mt-3">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card" style="">
+                    <div class="pp-box">
+                        <img src="images/CV.jpg" class="pp" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Ilgın Koşansu</h5>
+                      <p class="card-text">Gifiz:)</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item"> <i class="fa-brands fa-twitter"></i> kosansuu</li>
+                      <li class="list-group-item" > <i class="fa-brands fa-github"></i> ilginkosansu</li>
+                    </ul>
+                    <div class="card-body">
+                      <a href="#" class="card-link">Profili Düzenle</a>
+                    </div>
+                  </div>
+                  <div class="card mt-3">
+                    <h3 class="card-header">Çıkartmalarım</h3>
+                    <div class="card-body">
+                        <div class="st-box">
+                          <img src="https://i.pinimg.com/originals/7d/56/66/7d566677bc2bf3f7c25295d7525d573f.jpg" class="st mt-1" alt="">
+                          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6pc6FxfaYo15pxVylweOCLlaOsVblU8n7t0JBFX3e0TiTjvHavQ_ziu-_wJhGF84Mx58&usqp=CAU" class="st mt-1" alt="">
+                          <img src="data:image/jpeg;base64,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" class="st mt-1" alt="">
+                          <img src="https://i.pinimg.com/236x/05/4f/ea/054feafad376ab17f5b0d8d8706ef114.jpg" class="st mt-1" alt="">
+                          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSDUp_eToS-zZH7S6v08FQRDgm0TEJuekVTTjLJDh0teKDVM811EFzP0IxweiwChkKLxY&usqp=CAU" class="st mt-1" alt="">
+                        </div>
+                        <button type="button" class="btn btn-primary mt-2" data-toggle="modal" data-target="#exampleModal">
+                            Çıkartmaları Görüntüle
+                          </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="alert alert-success" role="alert">
+                    <strong>Tebrikler!</strong> Akış başarıyla güncellendi.
+                  </div>
+                  <div class="col-md-12 mt-3">
+                    <div class="card" style="">
+                      <div class="card-body">
+                        <h5 class="card-title">@iikosansu</h5>
+                        
+                      </div>
+                      <span class="post-icerik" style="height: 100px;">
+                        <p class="mt-3 ml-4">şimdiki ruh halin</p>
+                      </span>
+                      <div class="card-body">
+                       <a href="#"><i class="fa-regular fa-note-sticky"></i> Çıkartma </a>
+                        <a href="#" class="btn btn-primary">Paylaş</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="carouselExampleControls" class="carousel slide mt-3" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="https://www.galvanizeaction.org/wp-content/uploads/2022/06/Wow-gif.gif" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://aniyuki.com/wp-content/uploads/2022/01/aniyuki-huggy-wuggy-13.gif" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://media.tenor.com/d7_52xh_2dQAAAAC/dog-work.gif" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col-md-6">
+                      <div class="card" style="">
+                        <img src="https://thumbs.gfycat.com/DeliciousClearcutAustralianfreshwatercrocodile-size_restricted.gif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">@iikosansu</h5>
+                          <p class="card-text">1 gün önce</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="card" style="">
+                        <img src="https://www.icegif.com/wp-content/uploads/2022/05/icegif-327.gif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">@iikosansu</h5>
+                          <p class="card-text">21 Ocak 2023</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="container mt-3 offset-md-4" >
+                      <nav aria-label="Page navigation example">
+                        <ul class="pagination">
+                          <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Previous">
+                              <span aria-hidden="true">&laquo;</span>
+                            </a>
+                          </li>
+                          <li class="page-item"><a class="page-link" href="#">1</a></li>
+                          <li class="page-item"><a class="page-link" href="#">2</a></li>
+                          <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Next">
+                              <span aria-hidden="true">&raquo;</span>
+                            </a>
+                          </li>
+                        </ul>
+                      </nav>
+                    </div>
+                    <div class="col-md-12 mt-3">
+                      <div class="card" style="">
+                        <div class="card-body">
+                          <span class="material-symbols-sharp">
+
+                          <h5 class="card-title"> @iikosansu</h5>
+                          
+                        </div>
+                        <span class="card bg-dark text-white post-icerik">
+                            <img src="https://media0.giphy.com/media/eYilisUwipOEM/200.gif?cid=ecf05e47mpk7f6ckj1ybbacbdtdrv76v9kwuimdh38wwgfpq&rid=200.gif&ct=g" class="card-img" alt="...">
+                        </span>
+                        <div class="card-body">
+                          <p class="card-text">iikosansu adlı kullanıcı tarafından paylaşılan</p>
+                          <p class="card-text">21 Ocak 2023</p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                  </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card " style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">GIF Yükle!</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Hoşuna giden GIF'leri arkadaşlarınla paylaş</h6>
+                  <p class="card-text"></p>
+                  <a href="#" class="card-link">GIF yükle</a>
+                  <a href="#" class="card-link">GIF'lerini görüntüle</a>
+                </div>
+              </div>
+              <div class="card mt-3" style="width: 18rem;">
+                <img src="https://i.gifer.com/origin/f5/f5baef4b6b6677020ab8d091ef78a3bc_w200.gif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Önerilenler</h5>
+                  <p class="card-text">En eğlenceli GIF'leri burada keşfet!</p>
+                  <a href="#" class="btn btn-primary">Daha fazla GIF için tıkla!</a> 
+                </div>
+              </div>
+              
+              
+            </div>
+          </div>
+        </div>
+
+      <div class="modal" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>Modal body text goes here.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.slim.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+<footer class="bg-light mt-3">
+  <div class="container">
+    <div class="row footer-row">
+      <div class="col-md-8">
+        Sol Menü <br>
+        Copyright <i class="fa-regular fa-copyright"></i> 2021
+      </div>
+      <div class="col-md-4">
+        Sağ Menü <br>
+        <ul>
+          <li>Kullanıcı Sözleşmesi</li>
+          <li>Sıkça Sorulan Sorular</li>
+          <li>İletişim</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+</html>

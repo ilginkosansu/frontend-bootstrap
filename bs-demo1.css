@@ -1,0 +1,29 @@
+.pp {
+    height: 125px;
+    width: 125px;
+    border-radius: 100%;
+    align-items: center;
+    margin-top: 10px;
+}
+.pp-box {
+    text-align: center;
+}
+.post-icerik {
+    background-color: whitesmoke;
+    height: 390px;
+}
+.footer-row {
+    height: 200px;
+    padding-top: 20px;
+}
+.btn {
+    float: right;
+}
+.st {
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+}
+.st-box {
+    text-align: center;
+}
